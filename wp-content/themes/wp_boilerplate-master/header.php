@@ -36,7 +36,10 @@
 	        <div class="inner">
 	        
 	            <!-- Logo -->
-	            <h1 class="logo left"><a href="home.html">Singolo</a></h1><!-- .logo-->
+	            <a href="<?php the_permalink()?>">
+	            <?php the_custom_logo(); ?>
+	            </a>
+	            <!-- .logo-->
 	            
 	            <!-- Nav Menu -->
 	            <ul class="nav-menu right">
